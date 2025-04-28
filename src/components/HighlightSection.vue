@@ -1,0 +1,129 @@
+<script setup lang="ts">
+import IconViewMore from './icons/IconViewMore.vue';
+</script>
+
+<template>
+  <div class="content-container">
+    <div class="grid">
+      <div class="grid-1-1">
+        <div class="flex">
+          <h2>Highlight</h2>
+
+          <div class="text">
+            UNESCO endorsed HKUST WSDI's
+            <span class="program">
+              SEamless PREdiction and Services for
+              Sustainable Natural and Built Environments (SEPRESS) Program
+              2025 - 2032
+            </span>
+            under International Decade of Sciences for Sustainable Development (IDSSD)
+          </div>
+
+          <div>
+            <a href="#" class="view-more-link">
+              View more
+              <IconViewMore class="svg" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-1-2">
+        <div class="background-box">
+          <img src="/images/highlight/unesco.png" class="cover" />
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+  </div>
+</template>
+
+<style scoped>
+.divider {
+  border-bottom: 1px solid #D7D7D7;
+  width: 100%;
+  height: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 48px;
+  /* line-height: 100%; */
+  letter-spacing: 0;
+  color: #0B0717;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0;
+  color: #0B0717;
+}
+
+.program {
+  font-weight: 700;
+}
+
+.view-more-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  background: #0076D0;
+  /* 上边下边 | 左边右边 */
+  padding: 12px 24px;
+}
+
+/* .svg {
+    width: 100%;
+    height: auto;
+} */
+
+.cover {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+@media (min-width: 1024px) {
+  .content-container {
+    padding-left: 6.25%;
+    padding-right: 6.25%;
+  }
+
+  .divider {
+    padding-top: 132px;
+  }
+
+  .grid {
+    padding-top: 120px;
+  }
+
+  .text {
+    padding-top: 40px;
+    padding-bottom: 32px;
+  }
+}
+</style>

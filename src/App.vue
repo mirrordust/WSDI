@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import { RouterView } from 'vue-router';
+import Header from '@/components/PageHeader.vue';
+import Footer from '@/components/PageFooter.vue';
 </script>
 
 <template>
-  <header>
+  <!-- <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
@@ -15,13 +16,38 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
-  </header>
+  </header> -->
 
-  <RouterView />
+  <div class="header-container">
+    <Header />
+  </div>
+
+  <div class="content-container">
+    <RouterView />
+  </div>
+
+  <div class="footer-container">
+    <Footer />
+  </div>
 </template>
 
 <style scoped>
-header {
+.header-container {
+  position: sticky;
+  top: 0;
+  background: white;
+  font-family: "Titillium Web";
+}
+
+.content-container {
+  font-family: "Poppins";
+}
+
+.footer-container {
+  font-family: "Inter";
+}
+
+/* header {
   line-height: 1.5;
   max-height: 100vh;
 }
@@ -54,10 +80,12 @@ nav a {
 
 nav a:first-of-type {
   border: 0;
-}
+} */
 
 @media (min-width: 1024px) {
-  header {
+
+
+  /* header {
     display: flex;
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
@@ -80,6 +108,6 @@ nav a:first-of-type {
 
     padding: 1rem 0;
     margin-top: 1rem;
-  }
+  }*/
 }
 </style>
