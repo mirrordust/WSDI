@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import IconUst from './icons/IconUst.vue';
-import IconLogo from './icons/IconLogo.vue';
-import IconMore from './icons/IconMore.vue';
-
+import IconUst from './icons/IconUst.vue'
+import IconLogo from './icons/IconLogo.vue'
+import IconMore from './icons/IconMore.vue'
 </script>
 
 <template>
@@ -16,7 +15,8 @@ import IconMore from './icons/IconMore.vue';
       </div>
       <div class="logo-name">
         World Sustainable
-        <br> Development Institute
+        <br />
+        Development Institute
       </div>
     </div>
     <div class="flex-item more">
@@ -68,13 +68,12 @@ import IconMore from './icons/IconMore.vue';
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .logo-name {
   padding-left: 4px;
 
-  color: #0B0717;
+  color: #0b0717;
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;

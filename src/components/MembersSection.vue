@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-import { getMembers } from '@/api/fake';
+import { ref } from 'vue'
+import { getMembers } from '@/api/fake'
 
-import MemberItem from './MemberItem.vue';
+import MemberItem from './MemberItem.vue'
 
 const members = ref(getMembers())
 </script>
@@ -14,7 +14,7 @@ const members = ref(getMembers())
     <div class="grid">
       <MemberItem v-for="member in members" :home-page="member.homePage" :key="member.id">
         <template #photo>
-          <img :src="member.photo" class="cover">
+          <img :src="member.photo" class="cover" />
         </template>
         <template #name>{{ member.name }}</template>
         {{ member.intro }}
@@ -27,7 +27,7 @@ const members = ref(getMembers())
 
 <style scoped>
 .divider {
-  border-bottom: 1px solid #D7D7D7;
+  border-bottom: 1px solid #d7d7d7;
   width: 100%;
   height: 0;
 }
@@ -37,7 +37,7 @@ h2 {
   font-size: 48px;
   /* line-height: 100%; */
   letter-spacing: 0;
-  color: #0B0717;
+  color: #0b0717;
 }
 
 .grid {

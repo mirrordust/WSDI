@@ -1,12 +1,13 @@
 <script setup lang="ts">
-import PartnerItem from './PartnerItem.vue';
+import PartnerItem from './PartnerItem.vue'
 </script>
 
 <template>
   <div class="content-container">
     <h2>
       Regions and Countries
-      <br> of Partners and agencies
+      <br />
+      of Partners and agencies
     </h2>
 
     <div class="grid">
@@ -18,9 +19,9 @@ import PartnerItem from './PartnerItem.vue';
         <ul class="detail-list">
           <li>Beijing Normal University,</li>
           <li>Institute of Atmospheric Sciences at the Chinese Academy of Sciences,</li>
-          <li>Tsinghua University, </li>
-          <li>Dalian Maritime University, </li>
-          <li>Zhejiang University, </li>
+          <li>Tsinghua University,</li>
+          <li>Dalian Maritime University,</li>
+          <li>Zhejiang University,</li>
           <li>Nanjing University of Information Science & Technology,</li>
           <li>Lanzhou University</li>
         </ul>
@@ -83,7 +84,7 @@ import PartnerItem from './PartnerItem.vue';
 
 <style scoped>
 .divider {
-  border-bottom: 1px solid #D7D7D7;
+  border-bottom: 1px solid #d7d7d7;
   width: 100%;
   height: 0;
 }
@@ -93,7 +94,7 @@ h2 {
   font-size: 48px;
   /* line-height: 100%; */
   letter-spacing: 0;
-  color: #0B0717;
+  color: #0b0717;
 }
 
 .grid {
@@ -103,10 +104,10 @@ h2 {
   row-gap: 30px;
   column-gap: 26px;
   grid-template-areas:
-    "China Tanzania"
-    "China Nepal"
-    "Thailand Egypt"
-    "Pakistan .";
+    'China Tanzania'
+    'China Nepal'
+    'Thailand Egypt'
+    'Pakistan .';
 }
 
 .agency-china {
@@ -144,7 +145,7 @@ h2 {
   font-size: 20px;
   line-height: 40px;
   letter-spacing: 0;
-  color: #0B0717;
+  color: #0b0717;
 }
 
 @media (min-width: 1024px) {

@@ -44,7 +44,7 @@ defineProps({
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background: #F1F4F6;
+  background: #f1f4f6;
   width: 300px;
   height: 400px;
 }
@@ -60,7 +60,7 @@ defineProps({
   font-size: 32px;
   /* line-height: 100%; */
   letter-spacing: 0;
-  color: #0B0717;
+  color: #0b0717;
 }
 
 .intro {
@@ -70,6 +70,6 @@ defineProps({
   font-size: 18px;
   line-height: 40px;
   letter-spacing: 0;
-  color: #0B0717;
+  color: #0b0717;
 }
 </style>

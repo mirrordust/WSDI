@@ -1,5 +1,4 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <footer class="footer">
@@ -7,13 +6,15 @@
       <li>
         <a href="https://dms-shanghai.hkust.edu.hk">
           Digital Meteorological Services Innovation Lab
-          <br> at HKUST Shanghai Centre
+          <br />
+          at HKUST Shanghai Centre
         </a>
       </li>
       <li>
         <a href="https://ccrs.hkust.edu.hk">
           Otto Poon Centre
-          <br> for Climate Resilience and Sustainability
+          <br />
+          for Climate Resilience and Sustainability
         </a>
       </li>
       <li>
@@ -48,7 +49,7 @@ li {
   padding-bottom: 40px;
 
   /* opacity: 20% -> #33 */
-  border-bottom: 1px solid #DDDFDD33;
+  border-bottom: 1px solid #dddfdd33;
 }
 
 a {
@@ -56,7 +57,7 @@ a {
   font-weight: 400;
   font-size: 28px;
   line-height: 40px;
-  color: #7F7F7F;
+  color: #7f7f7f;
   letter-spacing: 0;
 }
 
@@ -65,6 +66,6 @@ a {
 }
 
 .current_link {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 </style>

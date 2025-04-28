@@ -1,5 +1,4 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="an-event">
@@ -38,7 +37,7 @@
   font-size: 32px;
   /* line-height: 100%; */
   letter-spacing: 0;
-  color: #0B0717
+  color: #0b0717;
 }
 
 .intro {
@@ -47,8 +46,9 @@
   font-size: 20px;
   /* line-height: 100%; */
   letter-spacing: 0;
-  color: #0B0717;
+  color: #0b0717;
 }
 
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+}
 </style>

@@ -1,5 +1,4 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="content-container">
@@ -7,16 +6,12 @@
 
     <div class="flex">
       <a href="https://cemlu.people.ust.hk/CWWF2025.html" class="image">
-        <img src="/images/event/cwwf.png" class="cover">
+        <img src="/images/event/cwwf.png" class="cover" />
       </a>
 
-      <div class="name">
-        CWWF
-      </div>
+      <div class="name">CWWF</div>
 
-      <div class="intro">
-        2025
-      </div>
+      <div class="intro">2025</div>
     </div>
 
     <div class="divider"></div>
@@ -35,7 +30,7 @@ h2 {
   font-size: 48px;
   /* line-height: 100%; */
   letter-spacing: 0;
-  color: #0B0717;
+  color: #0b0717;
 }
 
 .flex {
@@ -56,7 +51,7 @@ h2 {
   font-size: 32px;
   /* line-height: 100%; */
   letter-spacing: 0;
-  color: #0B0717
+  color: #0b0717;
 }
 
 .intro {
@@ -65,7 +60,7 @@ h2 {
   font-size: 20px;
   /* line-height: 100%; */
   letter-spacing: 0;
-  color: #0B0717;
+  color: #0b0717;
 }
 
 @media (min-width: 1024px) {

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import IconViewMore from './icons/IconViewMore.vue';
+import IconViewMore from './icons/IconViewMore.vue'
 </script>
 
 <template>
@@ -12,9 +12,8 @@ import IconViewMore from './icons/IconViewMore.vue';
           <div class="text">
             UNESCO endorsed HKUST WSDI's
             <span class="program">
-              SEamless PREdiction and Services for
-              Sustainable Natural and Built Environments (SEPRESS) Program
-              2025 - 2032
+              SEamless PREdiction and Services for Sustainable Natural and Built Environments
+              (SEPRESS) Program 2025 - 2032
             </span>
             under International Decade of Sciences for Sustainable Development (IDSSD)
           </div>
@@ -41,7 +40,7 @@ import IconViewMore from './icons/IconViewMore.vue';
 
 <style scoped>
 .divider {
-  border-bottom: 1px solid #D7D7D7;
+  border-bottom: 1px solid #d7d7d7;
   width: 100%;
   height: 0;
 }
@@ -66,7 +65,7 @@ h2 {
   font-size: 48px;
   /* line-height: 100%; */
   letter-spacing: 0;
-  color: #0B0717;
+  color: #0b0717;
 }
 
 .text {
@@ -74,7 +73,7 @@ h2 {
   font-size: 20px;
   line-height: 40px;
   letter-spacing: 0;
-  color: #0B0717;
+  color: #0b0717;
 }
 
 .program {
@@ -90,8 +89,8 @@ h2 {
   font-size: 24px;
   line-height: 40px;
   letter-spacing: 0;
-  color: #FFFFFF;
-  background: #0076D0;
+  color: #ffffff;
+  background: #0076d0;
   /* 上边下边 | 左边右边 */
   padding: 12px 24px;
 }

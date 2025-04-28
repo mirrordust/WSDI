@@ -1,5 +1,4 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="an-agency">
@@ -26,7 +25,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background: #F1F4F6;
+  background: #f1f4f6;
   padding: 32px;
 }
 
@@ -45,7 +44,7 @@
   font-size: 40px;
   /* line-height: 100%; */
   letter-spacing: 0;
-  color: #0B0717;
+  color: #0b0717;
   padding-top: 10px;
   padding-bottom: 10px;
 }

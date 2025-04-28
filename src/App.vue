@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router';
-import Header from '@/components/PageHeader.vue';
-import Footer from '@/components/PageFooter.vue';
+import { RouterView } from 'vue-router'
+import Header from '@/components/PageHeader.vue'
+import Footer from '@/components/PageFooter.vue'
 </script>
 
 <template>
@@ -36,15 +36,15 @@ import Footer from '@/components/PageFooter.vue';
   position: sticky;
   top: 0;
   background: white;
-  font-family: "Titillium Web";
+  font-family: 'Titillium Web';
 }
 
 .content-container {
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 
 .footer-container {
-  font-family: "Inter";
+  font-family: 'Inter';
 }
 
 /* header {
@@ -83,8 +83,6 @@ nav a:first-of-type {
 } */
 
 @media (min-width: 1024px) {
-
-
   /* header {
     display: flex;
     place-items: center;

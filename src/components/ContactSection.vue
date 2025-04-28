@@ -1,18 +1,11 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="content-container">
     <div class="flex">
-      <h2>
-        WSDI Secretariats
-      </h2>
-      <div class="contact">
-        <span class="name">Aubrey</span> (aubreyliao@ust.hk)
-      </div>
-      <div class="contact">
-        <span class="name">Tu Kexi</span> (aubreyliao@ust.hk)
-      </div>
+      <h2>WSDI Secretariats</h2>
+      <div class="contact"><span class="name">Aubrey</span> (aubreyliao@ust.hk)</div>
+      <div class="contact"><span class="name">Tu Kexi</span> (aubreyliao@ust.hk)</div>
     </div>
   </div>
 </template>
@@ -21,7 +14,7 @@
 .flex {
   display: flex;
   align-items: center;
-  background: #0076D0;
+  background: #0076d0;
 }
 
 h2 {
@@ -29,7 +22,7 @@ h2 {
   font-size: 32px;
   /* line-height: 100%; */
   letter-spacing: 0;
-  color: #FFFFFF;
+  color: #ffffff;
 
   padding-top: 24px;
   padding-bottom: 24px;
@@ -41,7 +34,7 @@ h2 {
   font-size: 24px;
   line-height: 40px;
   letter-spacing: 0;
-  color: #FFFFFF;
+  color: #ffffff;
 
   padding-left: 40px;
 }
@@ -49,7 +42,6 @@ h2 {
 div.contact:first-of-type {
   padding-left: 80px;
 }
-
 
 .name {
   font-weight: 700;

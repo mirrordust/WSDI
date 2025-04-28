@@ -1,33 +1,34 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="content-container">
     <h2>About us</h2>
 
     <div class="text">
-      <span class="name">The World Sustainable Development Institute (WSDI)</span><br>
-      a global interdisciplinary institution based at HKUST, is dedicated to harmonizing human progress with
-      planetary boundaries through science-driven, actionable solutions. Guided by the principles of inclusivity,
-      institutional rigor, and green innovation, WSDI addresses humanity’s most urgent challenges—natural
-      disasters, hunger, water scarcity, pollution, and biodiversity loss—while advancing renewable energy
-      adoption, ecosystem resilience, and equitable resource access.
+      <span class="name">The World Sustainable Development Institute (WSDI)</span><br />
+      a global interdisciplinary institution based at HKUST, is dedicated to harmonizing human
+      progress with planetary boundaries through science-driven, actionable solutions. Guided by the
+      principles of inclusivity, institutional rigor, and green innovation, WSDI addresses
+      humanity’s most urgent challenges—natural disasters, hunger, water scarcity, pollution, and
+      biodiversity loss—while advancing renewable energy adoption, ecosystem resilience, and
+      equitable resource access.
     </div>
     <div class="divider"></div>
 
     <div class="text">
-      As a nexus for global collaboration, we unite researchers, policymakers, and industry leaders to bridge the
-      gap between sustainability research and real-world implementation. Our work emphasizes scalable frameworks
-      for disaster risk reduction, climate adaptation, and sustainable resource management, ensuring science
-      transcends academic boundaries to empower communities worldwide.
+      As a nexus for global collaboration, we unite researchers, policymakers, and industry leaders
+      to bridge the gap between sustainability research and real-world implementation. Our work
+      emphasizes scalable frameworks for disaster risk reduction, climate adaptation, and
+      sustainable resource management, ensuring science transcends academic boundaries to empower
+      communities worldwide.
     </div>
     <div class="divider"></div>
 
     <div class="text">
-      Central to our mission is fostering cross-sector partnerships that align with the UN Sustainable Development
-      Goals (SDGs). Through initiatives like the World Sustainability Annual Report (WSAR), we synthesize global
-      insights to guide practical action, though our broader focus remains on institutional leadership and green
-      transformation.
+      Central to our mission is fostering cross-sector partnerships that align with the UN
+      Sustainable Development Goals (SDGs). Through initiatives like the World Sustainability Annual
+      Report (WSAR), we synthesize global insights to guide practical action, though our broader
+      focus remains on institutional leadership and green transformation.
     </div>
     <div class="divider"></div>
   </div>
@@ -35,7 +36,7 @@
 
 <style scoped>
 .divider {
-  border-bottom: 1px solid #D7D7D7;
+  border-bottom: 1px solid #d7d7d7;
   width: 100%;
   height: 0;
 }
@@ -45,7 +46,7 @@ h2 {
   font-size: 48px;
   /* line-height: 100%; */
   letter-spacing: 0;
-  color: #0B0717;
+  color: #0b0717;
 }
 
 .text {
@@ -53,13 +54,13 @@ h2 {
   font-size: 20px;
   line-height: 40px;
   letter-spacing: 0;
-  color: #0B0717;
+  color: #0b0717;
   max-width: 900px;
 }
 
 .name {
   font-weight: 600;
-  color: #0076D0;
+  color: #0076d0;
 }
 
 @media (min-width: 1024px) {

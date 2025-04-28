@@ -1,5 +1,4 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="content-container">
@@ -26,7 +25,7 @@ h1 {
   font-size: 48px;
   /* line-height: 100%; */
   letter-spacing: 0;
-  color: #0B0717;
+  color: #0b0717;
 }
 
 .cover {
@@ -36,7 +35,7 @@ h1 {
 }
 
 .divider {
-  border-bottom: 1px solid #D7D7D7;
+  border-bottom: 1px solid #d7d7d7;
   width: 100%;
   height: 0;
 }
