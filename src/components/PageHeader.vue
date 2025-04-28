@@ -9,6 +9,7 @@ import IconMore from './icons/IconMore.vue'
     <div class="flex-item ust">
       <IconUst class="svg svg-ust" />
     </div>
+
     <div class="flex-item site">
       <div class="logo">
         <IconLogo class="svg svg-site" />
@@ -19,6 +20,7 @@ import IconMore from './icons/IconMore.vue'
         Development Institute
       </div>
     </div>
+
     <div class="flex-item more">
       <IconMore class="svg svg-more" />
     </div>
@@ -34,14 +36,6 @@ import IconMore from './icons/IconMore.vue'
   display: flex;
   justify-content: flex-start;
   align-items: center;
-}
-
-.flex-item {
-  /* 0：如果存在剩余空间，也不放大 */
-  flex-grow: 0;
-  /* 1：如果空间不足，该项目将缩小 */
-  flex-shrink: 1;
-  flex-basis: auto;
 }
 
 .svg {

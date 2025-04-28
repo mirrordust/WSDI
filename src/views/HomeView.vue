@@ -19,5 +19,3 @@ import ContactSection from '@/components/ContactSection.vue'
     <ContactSection />
   </main>
 </template>
-
-<style scoped></style>
