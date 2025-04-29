@@ -32,6 +32,7 @@ import IconMore from './icons/IconMore.vue'
   .header {
     padding-left: 4%;
     padding-top: 4%;
+    padding-bottom: 2%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
