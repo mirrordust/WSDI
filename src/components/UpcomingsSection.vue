@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <div class="content-container">
     <h2>Upcoming Events</h2>

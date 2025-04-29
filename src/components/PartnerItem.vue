@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <div class="an-agency">
     <div class="roc-img">

@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { getMembers } from '@/api/fake'
-
 import MemberItem from './MemberItem.vue'
 
 const members = ref(getMembers())
