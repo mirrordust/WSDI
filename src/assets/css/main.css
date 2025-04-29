@@ -3,7 +3,7 @@
 #app {
   /* 上边下边 | 左边右边, 设置左右为auto来居中 */
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0;
   font-weight: normal;
   max-width: 1440px;
   background-color: #ffffff;

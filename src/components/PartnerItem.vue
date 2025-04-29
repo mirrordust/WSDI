@@ -20,32 +20,64 @@
 </template>
 
 <style scoped>
-.an-agency {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  background: #f1f4f6;
-  padding: 32px;
+@media (max-width: 1024px) {
+  .an-agency {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: #f1f4f6;
+    padding: 20px;
+    margin: 5px auto;
+  }
+
+  .roc-img {
+    max-width: 100px;
+    max-height: 100px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .roc-name {
+    font-weight: 600;
+    font-size: 26px;
+    /* line-height: 100%; */
+    letter-spacing: 0;
+    color: #0b0717;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
-.roc-img {
-  /* width: 126px; */
-  /* height: 126px; */
-  max-width: 126px;
-  max-height: 126px;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  overflow: hidden;
-}
+@media (min-width: 1024px) {
+  .an-agency {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: #f1f4f6;
+    padding: 32px;
+  }
 
-.roc-name {
-  font-weight: 600;
-  font-size: 40px;
-  /* line-height: 100%; */
-  letter-spacing: 0;
-  color: #0b0717;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  .roc-img {
+    /* width: 126px; */
+    /* height: 126px; */
+    max-width: 126px;
+    max-height: 126px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .roc-name {
+    font-weight: 600;
+    font-size: 40px;
+    /* line-height: 100%; */
+    letter-spacing: 0;
+    color: #0b0717;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 </style>

@@ -26,20 +26,6 @@ const members = ref(getMembers())
 </template>
 
 <style scoped>
-.divider {
-  border-bottom: 1px solid #d7d7d7;
-  width: 100%;
-  height: 0;
-}
-
-h2 {
-  font-weight: 600;
-  font-size: 48px;
-  /* line-height: 100%; */
-  letter-spacing: 0;
-  color: #0b0717;
-}
-
 .grid {
   display: grid;
   grid-row-gap: 30px;
@@ -48,6 +34,7 @@ h2 {
   column-gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-auto-rows: minmax(400px, auto);
+  padding-top: 30px;
 }
 
 .cover {
@@ -56,22 +43,49 @@ h2 {
   object-fit: cover;
 }
 
+@media (max-width: 1024px) {
+  .content-container {
+    padding-left: 6.25%;
+    padding-right: 6.25%;
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 26px;
+    /* line-height: 100%; */
+    letter-spacing: 0;
+    color: #0b0717;
+    padding-top: 20px;
+  }
+
+  .divider {
+    border-bottom: 1px solid #d7d7d7;
+    width: 100%;
+    height: 0;
+    padding-top: 30px;
+  }
+}
+
 @media (min-width: 1024px) {
   .content-container {
     padding-left: 6.25%;
     padding-right: 6.25%;
   }
 
-  .divider {
-    padding-top: 100px;
-  }
-
   h2 {
+    font-weight: 600;
+    font-size: 48px;
+    /* line-height: 100%; */
+    letter-spacing: 0;
+    color: #0b0717;
     padding-top: 60px;
   }
 
-  .grid {
-    padding-top: 30px;
+  .divider {
+    border-bottom: 1px solid #d7d7d7;
+    width: 100%;
+    height: 0;
+    padding-top: 100px;
   }
 }
 </style>

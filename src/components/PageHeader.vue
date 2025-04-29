@@ -28,64 +28,82 @@ import IconMore from './icons/IconMore.vue'
 </template>
 
 <style scoped>
-.header {
-  padding-left: 4%;
-  padding-top: 4%;
-  padding-bottom: 2%;
+@media (max-width: 1024px) {
+  .header {
+    padding-left: 4%;
+    padding-top: 4%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
 
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
+  .svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 
-.svg {
-  /* SVG元素是一个inline类型的标签,
-     * 浏览器会为标签之间的换行和空格, 生成一个看不见的空文本节点,
-     * 这个空的文本节点占据了位置, 增加了一个看不见的高度 */
-  display: block;
+  .ust {
+    padding-right: 5px;
+    border-right: 1px solid #003366;
+  }
 
-  /* 让svg随着屏幕尺寸缩放 */
-  width: 100%;
-  height: auto;
-}
+  .site {
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.ust {
-  padding-right: 5px;
+  .logo-name {
+    display: none;
+  }
 
-  border-right: 1px solid #003366;
-}
-
-.site {
-  margin-left: 6px;
-  margin-right: 4px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo-name {
-  padding-left: 4px;
-
-  color: #0b0717;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 150%;
-  letter-spacing: 0;
+  .more {
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) {
+  .header {
+    padding-left: 4%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .svg {
+    /* SVG元素是一个inline类型的标签,
+     * 浏览器会为标签之间的换行和空格, 生成一个看不见的空文本节点,
+     * 这个空的文本节点占据了位置, 增加了一个看不见的高度 */
+    display: block;
+    /* 让svg随着屏幕尺寸缩放 */
+    width: 100%;
+    height: auto;
+  }
+
   .ust {
     padding-right: 20px;
+    border-right: 1px solid #003366;
   }
 
   .site {
     margin-left: 24px;
     margin-right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .logo-name {
     padding-left: 16px;
+    color: #0b0717;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0;
   }
 }
 </style>

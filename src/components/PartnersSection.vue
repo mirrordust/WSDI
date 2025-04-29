@@ -83,69 +83,41 @@ import PartnerItem from './PartnerItem.vue'
 </template>
 
 <style scoped>
-.divider {
-  border-bottom: 1px solid #d7d7d7;
-  width: 100%;
-  height: 0;
-}
+@media (max-width: 1024px) {
+  .content-container {
+    padding-left: 6.25%;
+    padding-right: 6.25%;
+  }
 
-h2 {
-  font-weight: 600;
-  font-size: 48px;
-  /* line-height: 100%; */
-  letter-spacing: 0;
-  color: #0b0717;
-}
+  h2 {
+    font-weight: 500;
+    font-size: 26px;
+    /* line-height: 100%; */
+    letter-spacing: 0;
+    color: #0b0717;
+    padding-top: 20px;
+  }
 
-.grid {
-  display: grid;
-  grid-row-gap: 30px;
-  grid-column-gap: 26px;
-  row-gap: 30px;
-  column-gap: 26px;
-  grid-template-areas:
-    'China Tanzania'
-    'China Nepal'
-    'Thailand Egypt'
-    'Pakistan .';
-}
+  .cover {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
 
-.agency-china {
-  grid-area: China;
-}
+  .detail-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0;
+    color: #0b0717;
+  }
 
-.agency-tanzania {
-  grid-area: Tanzania;
-}
-
-.agency-nepal {
-  grid-area: Nepal;
-}
-
-.agency-thailand {
-  grid-area: Thailand;
-}
-
-.agency-egypt {
-  grid-area: Egypt;
-}
-
-.agency-pakistan {
-  grid-area: Pakistan;
-}
-
-.cover {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.detail-list {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 40px;
-  letter-spacing: 0;
-  color: #0b0717;
+  .divider {
+    border-bottom: 1px solid #d7d7d7;
+    width: 100%;
+    height: 0;
+    padding-top: 30px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -154,16 +126,72 @@ h2 {
     padding-right: 6.25%;
   }
 
-  .divider {
-    padding-top: 100px;
-  }
-
   h2 {
+    font-weight: 600;
+    font-size: 48px;
+    /* line-height: 100%; */
+    letter-spacing: 0;
+    color: #0b0717;
     padding-top: 60px;
   }
 
   .grid {
+    display: grid;
+    grid-row-gap: 30px;
+    grid-column-gap: 26px;
+    row-gap: 30px;
+    column-gap: 26px;
+    grid-template-areas:
+      'China Tanzania'
+      'China Nepal'
+      'Thailand Egypt'
+      'Pakistan .';
     padding-top: 60px;
+  }
+
+  .agency-china {
+    grid-area: China;
+  }
+
+  .agency-tanzania {
+    grid-area: Tanzania;
+  }
+
+  .agency-nepal {
+    grid-area: Nepal;
+  }
+
+  .agency-thailand {
+    grid-area: Thailand;
+  }
+
+  .agency-egypt {
+    grid-area: Egypt;
+  }
+
+  .agency-pakistan {
+    grid-area: Pakistan;
+  }
+
+  .cover {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .detail-list {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0;
+    color: #0b0717;
+  }
+
+  .divider {
+    border-bottom: 1px solid #d7d7d7;
+    width: 100%;
+    height: 0;
+    padding-top: 100px;
   }
 }
 </style>
