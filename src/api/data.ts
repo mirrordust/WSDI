@@ -10,7 +10,7 @@ const members = [
   {
     id: 2,
     photo: '/images/photo/qian.png',
-    name: 'Qian Peiyuan',
+    name: 'Peiyuan Qian',
     intro: 'Earth Engineering',
     homePage: 'https://facultyprofiles.hkust.edu.hk/profiles.php?profile=peiyuan-qian-boqianpy',
   },
@@ -82,7 +82,7 @@ const members = [
   {
     id: 12,
     photo: '/images/photo/jin.png',
-    name: 'Jin QI',
+    name: 'Jin Qi',
     intro: 'AI for SDGs',
     homePage: 'https://seng.hkust.edu.hk/about/people/faculty/jin-qi',
   },
@@ -104,7 +104,7 @@ const members = [
   {
     id: 15,
     photo: '/images/photo/shao.png',
-    name: 'Shao Minhua',
+    name: 'Minhua Shao',
     intro: 'Renewable Energy',
     homePage: 'https://facultyprofiles.hkust.edu.hk/profiles.php?profile=minhua-shao-kemshao',
   },
