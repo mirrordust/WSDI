@@ -23,7 +23,7 @@ import PartnerItem from './PartnerItem.vue'
           <li>Dalian Maritime University,</li>
           <li>Zhejiang University,</li>
           <li>Nanjing University of Information Science & Technology,</li>
-          <li>Lanzhou University</li>
+          <!-- <li>Lanzhou University</li> -->
         </ul>
       </PartnerItem>
 
