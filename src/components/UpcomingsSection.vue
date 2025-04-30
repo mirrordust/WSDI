@@ -112,7 +112,7 @@
   .divider {
     width: 100%;
     height: 0;
-    padding-top: 130px;
+    padding-top: 164px;
   }
 }
 </style>

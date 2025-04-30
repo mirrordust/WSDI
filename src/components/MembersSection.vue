@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { getMembers } from '@/api/fake'
+import { getMembers } from '@/api/data'
 import MemberItem from './MemberItem.vue'
 
-const members = ref(getMembers())
+const memberList = ref(getMembers())
 </script>
 
 <template>
@@ -11,7 +11,7 @@ const members = ref(getMembers())
     <h2>Members</h2>
 
     <div class="grid">
-      <MemberItem v-for="member in members" :home-page="member.homePage" :key="member.id">
+      <MemberItem v-for="member in memberList" :home-page="member.homePage" :key="member.id">
         <template #photo>
           <img :src="member.photo" class="cover" />
         </template>

@@ -5,7 +5,6 @@ import HighlightSection from '@/components/HighlightSection.vue'
 import PartnersSection from '@/components/PartnersSection.vue'
 import MembersSection from '@/components/MembersSection.vue'
 import UpcomingsSection from '@/components/UpcomingsSection.vue'
-import ContactSection from '@/components/ContactSection.vue'
 </script>
 
 <template>
@@ -16,6 +15,5 @@ import ContactSection from '@/components/ContactSection.vue'
     <PartnersSection />
     <MembersSection />
     <UpcomingsSection />
-    <ContactSection />
   </main>
 </template>
