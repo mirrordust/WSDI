@@ -11,7 +11,7 @@ const members = [
     id: 2,
     photo: '/images/photo/yike.png',
     name: 'Yike Guo',
-    intro: 'Earth Engineering',
+    intro: 'Earth Engineering and AI for SDGs',
     homePage: 'https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yike-guo-yikeguo',
   },
   {
