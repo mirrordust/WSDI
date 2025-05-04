@@ -45,7 +45,7 @@ defineProps({
   justify-content: flex-start;
   align-items: flex-start;
   background: #f1f4f6;
-  width: 300px;
+  width: 236px;
   height: 400px;
 }
 
@@ -57,7 +57,7 @@ defineProps({
   padding-top: 20px;
   padding-left: 20px;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 24px;
   /* line-height: 100%; */
   letter-spacing: 0;
   color: #0b0717;

@@ -27,11 +27,11 @@ const memberList = ref(getMembers())
 <style scoped>
 .grid {
   display: grid;
-  grid-row-gap: 30px;
   grid-column-gap: 20px;
-  row-gap: 30px;
   column-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-row-gap: 30px;
+  row-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(236px, 1fr));
   grid-auto-rows: minmax(400px, auto);
   padding-top: 30px;
 }
