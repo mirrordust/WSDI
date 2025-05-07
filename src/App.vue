@@ -8,7 +8,7 @@ import PageFooter from '@/components/PageFooter.vue'
   <div class="header-container">
     <PageHeader />
   </div>
-  <div class="content-container">
+  <div class="main-content-container">
     <RouterView />
   </div>
   <div class="footer-container">
@@ -24,7 +24,7 @@ import PageFooter from '@/components/PageFooter.vue'
   font-family: 'Titillium Web';
 }
 
-.content-container {
+.main-content-container {
   font-family: 'Poppins';
 }
 
