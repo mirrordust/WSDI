@@ -17,9 +17,7 @@
           </a>
         </li>
         <li>
-          <a href="https://wsdi.hkust.edu.hk" class="current_link wsdi">
-            World Sustainable Development Institute
-          </a>
+          <a href="/" class="current_link wsdi">World Sustainable Development Institute</a>
         </li>
       </ul>
     </div>
