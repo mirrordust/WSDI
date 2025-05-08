@@ -22,10 +22,12 @@ import PageFooter from '@/components/PageFooter.vue'
   top: 0;
   background: white;
   font-family: 'Titillium Web';
+  transform: scale(1);
 }
 
 .main-content-container {
   font-family: 'Poppins';
+  padding-top: 150px;
 }
 
 .footer-container {

@@ -1,15 +1,15 @@
-<template>
-  <div class="about">
-    <h1>unesco page</h1>
-  </div>
-</template>
+<script setup lang="ts">
+import UnescoAbstract from '@/components/UnescoAbstract.vue'
+import UnescoInstitutions from '@/components/UnescoInstitutions.vue'
+import UnescoWorkingGroups from '@/components/UnescoWorkingGroups.vue'
+import UnescoNews from '@/components/UnescoNews.vue'
+</script>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
+<template>
+  <main>
+    <UnescoAbstract />
+    <UnescoInstitutions />
+    <UnescoWorkingGroups />
+    <UnescoNews />
+  </main>
+</template>

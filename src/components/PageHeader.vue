@@ -22,7 +22,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
 </script>
 
 <template>
-  <header class="header" :class="{ 'header-small': hasScrolled }">
+  <header class="header" :class="{ 'has-bg': hasScrolled, 'header-small': hasScrolled }">
     <div class="flex-item ust">
       <IconUst class="svg svg-ust" />
     </div>
@@ -90,10 +90,41 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
   .header {
     padding-left: 60px;
     padding-top: 60px;
+    padding-right: 60px;
     padding-bottom: 30px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+
+  .has-bg {
+    background-color: #ffffff;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
   }
 
   .header-small {

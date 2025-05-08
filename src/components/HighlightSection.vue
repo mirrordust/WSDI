@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import IconViewMore from './icons/IconViewMore.vue'
+import { RouterLink } from 'vue-router'
 </script>
 
 <template>
@@ -19,10 +20,10 @@ import IconViewMore from './icons/IconViewMore.vue'
           </div>
 
           <div>
-            <a href="#" class="view-more-link">
+            <RouterLink to="/unesco" class="view-more-link">
               View more
               <IconViewMore class="svg" />
-            </a>
+            </RouterLink>
           </div>
         </div>
       </div>
