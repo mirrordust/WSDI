@@ -20,8 +20,8 @@ import UnescoNewsItem from './UnescoNewsItem.vue'
 
 <style scoped>
 .content-container {
-  padding-left: 90px;
-  padding-right: 90px;
+  padding-left: 6.25%;
+  padding-right: 6.25%;
 }
 
 h2 {
@@ -47,6 +47,7 @@ h2 {
   height: 0;
   padding-top: 262px;
 }
+
 @media (min-width: 1024px) {
 }
 </style>

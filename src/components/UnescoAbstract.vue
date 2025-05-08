@@ -54,8 +54,8 @@
 
 <style scoped>
 .content-container {
-  padding-left: 90px;
-  padding-right: 90px;
+  padding-left: 6.25%;
+  padding-right: 6.25%;
 }
 
 .cover-image {
@@ -104,7 +104,6 @@ h2 {
   letter-spacing: 0%;
   color: #0b0717;
 
-  padding-right: 300px;
   padding-top: 40px;
 }
 
@@ -127,6 +126,10 @@ p.txt:first-of-type {
   height: 0;
   padding-top: 100px;
 }
+
 @media (min-width: 1024px) {
+  .txt {
+    padding-right: 300px;
+  }
 }
 </style>

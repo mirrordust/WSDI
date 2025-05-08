@@ -38,10 +38,9 @@ defineProps({
 
 <style scoped>
 .inst-item {
-  display: flex;
   border-radius: 16px;
   overflow: hidden;
-  width: 610px;
+  width: min(610px, 100%);
   border: 1px solid #dddfdd;
 }
 
@@ -79,5 +78,8 @@ defineProps({
 }
 
 @media (min-width: 1024px) {
+  .inst-item {
+    display: flex;
+  }
 }
 </style>
