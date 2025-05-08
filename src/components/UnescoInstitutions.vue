@@ -47,9 +47,9 @@ const agencyList = ref(getAgencies())
         :class="agency.abbr"
       />
     </div>
-  </div>
 
-  <div class="divider"></div>
+    <div class="divider"></div>
+  </div>
 </template>
 
 <style scoped>

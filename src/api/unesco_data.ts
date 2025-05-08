@@ -107,3 +107,101 @@ const agencies = [
 export const getAgencies = () => {
   return agencies
 }
+
+const unescoMembers = [
+  {
+    id: 1,
+    photo: '/images/unesco_photo/mengqian.png',
+    name: 'Mengqian Lu',
+    intro: 'Water & Data',
+    homePage: 'https://seng.hkust.edu.hk/about/people/faculty/mengqian-lu',
+  },
+  {
+    id: 2,
+    photo: '/images/unesco_photo/yike.png',
+    name: 'Yike Guo',
+    intro: 'Data',
+    homePage: 'https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yike-guo-yikeguo',
+  },
+  {
+    id: 3,
+    photo: '/images/unesco_photo/jun.png',
+    name: 'Jun Jian',
+    intro: 'Water & Disasters',
+    homePage: '',
+  },
+  {
+    id: 4,
+    photo: '/images/unesco_photo/hongbo.png',
+    name: 'Hongbo Liu',
+    intro: 'Water',
+    homePage: '',
+  },
+  {
+    id: 5,
+    photo: '/images/unesco_photo/qing.png',
+    name: 'Qing Bao',
+    intro: 'Water',
+    homePage: '',
+  },
+  {
+    id: 6,
+    photo: '/images/unesco_photo/jing.png',
+    name: 'Jing Yang',
+    intro: 'Food & Disasters',
+    homePage: '',
+  },
+  {
+    id: 7,
+    photo: '/images/unesco_photo/xiaojing.png',
+    name: 'Xiaojing Jia',
+    intro: 'Food',
+    homePage: '',
+  },
+  {
+    id: 8,
+    photo: '/images/unesco_photo/minhua.png',
+    name: 'Minhua Shao',
+    intro: 'Energy',
+    homePage: 'https://facultyprofiles.hkust.edu.hk/profiles.php?profile=minhua-shao-kemshao',
+  },
+  {
+    id: 9,
+    photo: '/images/unesco_photo/yuanyuan.png',
+    name: 'Yuanyuan Zhou',
+    intro: 'Energy',
+    homePage: 'https://seng.hkust.edu.hk/about/people/faculty/yuanyuan-zhou',
+  },
+  {
+    id: 10,
+    photo: '/images/unesco_photo/qingchen.png',
+    name: 'Qing Chen',
+    intro: 'Energy',
+    homePage: 'https://seng.hkust.edu.hk/about/people/faculty/qing-chen',
+  },
+  {
+    id: 11,
+    photo: '/images/unesco_photo/miaoni.png',
+    name: 'Miaoni Gao',
+    intro: 'Energy',
+    homePage: '',
+  },
+  {
+    id: 12,
+    photo: '/images/unesco_photo/shuiqing.png',
+    name: 'Shuiqing Yin',
+    intro: 'Health',
+    homePage: '',
+  },
+  {
+    id: 13,
+    photo: '/images/unesco_photo/jim.png',
+    name: 'Jim Hall',
+    intro: 'Infrastructure',
+    homePage: '',
+  },
+]
+
+export const getUnescoMembers = () => {
+  return unescoMembers
+}
