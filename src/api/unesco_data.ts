@@ -179,6 +179,20 @@ const unescoMembers = [
     intro: 'Health & Disaster',
     homePage: 'https://geot.bnu.edu.cn/Public/htm/news/5/187.html',
   },
+  {
+    id: 11,
+    photo: '/images/unesco_photo/dong.png',
+    name: 'Dong Lou',
+    intro: 'Economic Growth',
+    homePage: 'https://facultyprofiles.hkust.edu.hk/profiles.php?profile=dong-lou-dlou',
+  },
+  {
+    id: 12,
+    photo: '/images/unesco_photo/tao.png',
+    name: 'Tao Ye',
+    intro: 'Food & Economic Growth',
+    homePage: 'https://geot.bnu.edu.cn/Public/htm/news/5/188.html',
+  },
 ]
 
 export const getUnescoMembers = () => {
