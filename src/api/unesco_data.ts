@@ -47,7 +47,7 @@ const coreInstitutions = [
   {
     id: 4,
     image: '/images/unesco_inst/inst-iap.png',
-    name: 'Institute of Atmospheric Sciences at the Chinese Academy of Sciences (IAP,CAS)',
+    name: 'Institute of Atmospheric Physics at the Chinese Academy of Sciences (IAP,CAS)',
     contacts: ['Xuechao Feng (fengxuechao@mail.iap.ac.cn)'],
     abbr: 'iap',
   },
