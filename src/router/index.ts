@@ -10,8 +10,8 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: '/unesco',
-      name: 'unesco',
+      path: '/idssd',
+      name: 'idssd',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.

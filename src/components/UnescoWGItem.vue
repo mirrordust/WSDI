@@ -81,7 +81,7 @@ defineProps({
   font-family: 'Poppins';
   font-weight: 400;
   font-size: 18px;
-  line-height: 40px;
+  /* line-height: 40px; */
   letter-spacing: 0%;
   color: #0b0717;
 

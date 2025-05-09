@@ -113,7 +113,7 @@ const unescoMembers = [
     id: 1,
     photo: '/images/unesco_photo/mengqian.png',
     name: 'Mengqian Lu',
-    intro: 'Water & Data',
+    intro: 'Water & Data & Infrastructure',
     homePage: 'https://seng.hkust.edu.hk/about/people/faculty/mengqian-lu',
   },
   {
@@ -127,7 +127,7 @@ const unescoMembers = [
     id: 3,
     photo: '/images/unesco_photo/jun.png',
     name: 'Jun Jian',
-    intro: 'Water & Disasters',
+    intro: 'Water & Disaster',
     homePage: '',
   },
   {
@@ -148,7 +148,7 @@ const unescoMembers = [
     id: 6,
     photo: '/images/unesco_photo/jing.png',
     name: 'Jing Yang',
-    intro: 'Food & Disasters',
+    intro: 'Disaster & Food',
     homePage: '',
   },
   {
@@ -193,13 +193,13 @@ const unescoMembers = [
     intro: 'Health',
     homePage: '',
   },
-  {
-    id: 13,
-    photo: '/images/unesco_photo/jim.png',
-    name: 'Jim Hall',
-    intro: 'Infrastructure',
-    homePage: '',
-  },
+  // {
+  //   id: 13,
+  //   photo: '/images/unesco_photo/jim.png',
+  //   name: 'Jim Hall',
+  //   intro: 'Infrastructure',
+  //   homePage: '',
+  // },
 ]
 
 export const getUnescoMembers = () => {

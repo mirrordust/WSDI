@@ -20,7 +20,7 @@ import { RouterLink } from 'vue-router'
           </div>
 
           <div>
-            <RouterLink to="/unesco" class="view-more-link">
+            <RouterLink :to="{ name: 'idssd' }" class="view-more-link">
               View more
               <IconViewMore class="svg" />
             </RouterLink>
