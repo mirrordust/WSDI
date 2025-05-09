@@ -1,3 +1,4 @@
+// Institutions
 const leadInstitutions = [
   {
     id: 1,
@@ -14,10 +15,6 @@ const leadInstitutions = [
     abbr: 'ccrs',
   },
 ]
-
-export const getLeadInstitutions = () => {
-  return leadInstitutions
-}
 
 const coreInstitutions = [
   {
@@ -67,10 +64,6 @@ const coreInstitutions = [
   },
 ]
 
-export const getCoreInstitutions = () => {
-  return coreInstitutions
-}
-
 const agencies = [
   {
     id: 1,
@@ -87,7 +80,7 @@ const agencies = [
   {
     id: 3,
     image: '/images/unesco_inst/inst-phuket.png',
-    name: 'Phuket Rajabhat University',
+    name: 'Phuket Rajabhat University, Thailand',
     abbr: 'phuket',
   },
   {
@@ -104,10 +97,7 @@ const agencies = [
   },
 ]
 
-export const getAgencies = () => {
-  return agencies
-}
-
+// Working Group
 const unescoMembers = [
   {
     id: 1,
@@ -194,6 +184,16 @@ const unescoMembers = [
     homePage: 'https://geot.bnu.edu.cn/Public/htm/news/5/188.html',
   },
 ]
+
+export const getLeadInstitutions = () => {
+  return leadInstitutions
+}
+export const getCoreInstitutions = () => {
+  return coreInstitutions
+}
+export const getAgencies = () => {
+  return agencies
+}
 
 export const getUnescoMembers = () => {
   return unescoMembers
