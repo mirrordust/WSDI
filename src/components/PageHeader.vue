@@ -4,6 +4,9 @@ import IconLogo from './icons/IconLogo.vue'
 import IconMore from './icons/IconMore.vue'
 
 import { ref, onMounted, onUnmounted, computed } from 'vue'
+// import { useLocationStore } from '@/stores/location'
+
+// const locationStore = useLocationStore()
 const scrollY = ref(0)
 const opacity = ref(0)
 
@@ -23,23 +26,29 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
 
 <template>
   <header class="header" :class="{ 'has-bg': hasScrolled, 'header-small': hasScrolled }">
-    <a href="https://www.ust.hk" class="flex-item ust" style="text-decoration: none">
-      <IconUst class="svg svg-ust" />
-    </a>
+    <div class="left">
+      <a href="https://www.ust.hk" class="flex-item ust" style="text-decoration: none">
+        <IconUst class="svg svg-ust" />
+      </a>
 
-    <a href="/" class="flex-item site" style="text-decoration: none">
-      <div class="logo">
-        <IconLogo class="svg svg-site" />
-      </div>
-      <div class="logo-name">
-        World Sustainable
-        <br />
-        Development Institute
-      </div>
-    </a>
+      <a href="/" class="flex-item site" style="text-decoration: none">
+        <div class="logo">
+          <IconLogo class="svg svg-site" />
+        </div>
+        <div class="logo-name">
+          World Sustainable
+          <br />
+          Development Institute
+        </div>
+      </a>
 
-    <div class="flex-item more">
-      <IconMore class="svg svg-more" />
+      <div class="flex-item more">
+        <IconMore class="svg svg-more" />
+      </div>
+    </div>
+
+    <div class="right">
+      <!-- <div v-if="locationStore.hasChinese.unesco">English</div> -->
     </div>
   </header>
 </template>
@@ -54,6 +63,13 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
     padding-left: 4%;
     padding-top: 4%;
     padding-bottom: 2%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .left {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -92,8 +108,9 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
     padding-top: 60px;
     padding-right: 60px;
     padding-bottom: 30px;
+
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 
     position: fixed;
@@ -132,6 +149,12 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
     padding-bottom: 20px;
   }
 
+  .left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
   .svg {
     /* SVG元素是一个inline类型的标签,
      * 浏览器会为标签之间的换行和空格, 生成一个看不见的空文本节点,
@@ -162,6 +185,10 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
     font-size: 20px;
     line-height: 150%;
     letter-spacing: 0;
+  }
+
+  .right {
+    display: flex;
   }
 }
 </style>
