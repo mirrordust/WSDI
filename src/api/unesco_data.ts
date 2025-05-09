@@ -160,46 +160,25 @@ const unescoMembers = [
   },
   {
     id: 8,
-    photo: '/images/unesco_photo/minhua.png',
-    name: 'Minhua Shao',
-    intro: 'Energy',
-    homePage: 'https://facultyprofiles.hkust.edu.hk/profiles.php?profile=minhua-shao-kemshao',
-  },
-  {
-    id: 9,
-    photo: '/images/unesco_photo/yuanyuan.png',
-    name: 'Yuanyuan Zhou',
-    intro: 'Energy',
-    homePage: 'https://seng.hkust.edu.hk/about/people/faculty/yuanyuan-zhou',
-  },
-  {
-    id: 10,
     photo: '/images/unesco_photo/qingchen.png',
     name: 'Qing Chen',
     intro: 'Energy',
     homePage: 'https://seng.hkust.edu.hk/about/people/faculty/qing-chen',
   },
   {
-    id: 11,
+    id: 9,
     photo: '/images/unesco_photo/miaoni.png',
     name: 'Miaoni Gao',
     intro: 'Energy',
     homePage: '',
   },
   {
-    id: 12,
+    id: 10,
     photo: '/images/unesco_photo/shuiqing.png',
     name: 'Shuiqing Yin',
     intro: 'Health',
     homePage: '',
   },
-  // {
-  //   id: 13,
-  //   photo: '/images/unesco_photo/jim.png',
-  //   name: 'Jim Hall',
-  //   intro: 'Infrastructure',
-  //   homePage: '',
-  // },
 ]
 
 export const getUnescoMembers = () => {
