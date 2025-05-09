@@ -176,7 +176,7 @@ const unescoMembers = [
     id: 10,
     photo: '/images/unesco_photo/shuiqing.png',
     name: 'Shuiqing Yin',
-    intro: 'Health',
+    intro: 'Health & Disaster',
     homePage: 'https://geot.bnu.edu.cn/Public/htm/news/5/187.html',
   },
 ]
