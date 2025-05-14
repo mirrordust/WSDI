@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { getMembers } from '@/api/data'
+import { getMembers, getExternalAdvisors } from '@/api/data'
 import MemberItem from './MemberItem.vue'
 
 const memberList = ref(getMembers())
+const externalAdvisors = ref(getExternalAdvisors())
 </script>
 
 <template>
@@ -17,6 +18,17 @@ const memberList = ref(getMembers())
         </template>
         <template #name>{{ member.name }}</template>
         {{ member.intro }}
+      </MemberItem>
+    </div>
+
+    <h2>External Advisors</h2>
+    <div class="grid">
+      <MemberItem v-for="person in externalAdvisors" :home-page="person.homePage" :key="person.id">
+        <template #photo>
+          <img :src="person.photo" class="cover" />
+        </template>
+        <template #name>{{ person.name }}</template>
+        {{ person.intro }}
       </MemberItem>
     </div>
 
