@@ -50,6 +50,12 @@ defineProps({
   margin: 24px;
 }
 
+.cover {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+}
+
 .intro {
   padding-top: 24px;
 }

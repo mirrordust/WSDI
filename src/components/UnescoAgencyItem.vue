@@ -43,6 +43,12 @@ defineProps({
   margin: 24px;
 }
 
+.cover {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
 .intro {
   padding-top: 24px;
 }
@@ -55,6 +61,7 @@ defineProps({
   letter-spacing: 0%;
   color: #0b0717;
 }
+
 @media (min-width: 1024px) {
 }
 </style>
