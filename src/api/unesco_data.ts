@@ -21,7 +21,7 @@ const coreInstitutions = [
     id: 1,
     image: '/images/unesco_inst/inst-hkust.png',
     name: 'HKUST',
-    contacts: ['Aubrey Liao (aubreyliao@ust.hk)', 'Kexin Tu (tukexintkx@gmail.com)'],
+    contacts: ['Aubrey Liao (aubreyliao@ust.hk)', 'Kexin Tu (tukexintkx@ust.hk)'],
     abbr: 'hkust',
   },
   {

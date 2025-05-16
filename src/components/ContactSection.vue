@@ -3,7 +3,7 @@
     <div class="flex">
       <h2>WSDI Secretariats</h2>
       <div class="contact"><span class="name">Aubrey</span> (aubreyliao@ust.hk)</div>
-      <div class="contact"><span class="name">Tu Kexi</span> (tukexintkx@gmail.com)</div>
+      <div class="contact"><span class="name">Tu Kexi</span> (tukexintkx@ust.hk)</div>
     </div>
   </div>
 </template>
