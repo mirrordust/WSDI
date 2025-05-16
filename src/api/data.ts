@@ -257,7 +257,7 @@ const secretariats = [
   {
     id: 2,
     name: 'Tu Kexi',
-    emali: 'tukexintkx@gmail.com',
+    emali: 'tukexintkx@ust.hk',
   },
 ]
 export const getSecretariats = () => {
