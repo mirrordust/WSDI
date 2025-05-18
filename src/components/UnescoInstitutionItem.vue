@@ -12,6 +12,10 @@ defineProps({
     type: String,
     required: true,
   },
+  role: {
+    type: String,
+    required: true,
+  },
   contacts: {
     type: Array<string>,
     required: true,
@@ -27,6 +31,7 @@ defineProps({
 
     <div class="intro">
       <div class="name">{{ name }}</div>
+      <div class="role">{{ role }}</div>
       <div class="contacts">
         <div v-for="(person, index) in contacts" :key="index" class="person">
           {{ person }}
@@ -57,7 +62,7 @@ defineProps({
 }
 
 .intro {
-  padding-top: 24px;
+  /* padding-top: 24px; */
 }
 
 .name {
@@ -69,7 +74,18 @@ defineProps({
   color: #0b0717;
 
   /* 只给机构名字加右padding, 邮件地址不要 */
-  padding-right: 78px;
+  padding-right: 24px;
+}
+
+.role {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 14px;
+  /* line-height: 100%; */
+  letter-spacing: 0%;
+  color: #2c67ae;
+
+  padding-top: 16px;
 }
 
 .person {
@@ -79,13 +95,12 @@ defineProps({
   /* line-height: 100%; */
   letter-spacing: 0%;
   color: #7f7f7f;
-
-  padding-top: 13px;
 }
 
 @media (min-width: 1024px) {
   .inst-item {
     display: flex;
+    align-items: center;
   }
 }
 </style>
