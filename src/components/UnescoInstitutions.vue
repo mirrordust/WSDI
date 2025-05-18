@@ -20,7 +20,8 @@ const agencyList = ref(getAgencies())
         :key="inst.id"
         :image_link="inst.image"
         :name="inst.name"
-        :contacts="inst.contacts"
+        :role="inst.role"
+        :contacts="inst.roleList"
         :class="inst.abbr"
       />
     </div>
@@ -32,7 +33,8 @@ const agencyList = ref(getAgencies())
         :key="inst.id"
         :image_link="inst.image"
         :name="inst.name"
-        :contacts="inst.contacts"
+        :role="inst.role"
+        :contacts="inst.roleList"
         :class="inst.abbr"
       />
     </div>
@@ -108,13 +110,13 @@ h3 {
   align-items: center;
 }
 
-.bnu :deep(.name) {
+/* .bnu :deep(.name) {
   padding-right: 46px;
 }
 
 .iap :deep(.name) {
   padding-right: 36px;
-}
+} */
 
 .divider {
   border-bottom: 1.5px solid #dddfdd;
