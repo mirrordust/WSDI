@@ -61,9 +61,9 @@ defineProps({
   object-fit: contain;
 }
 
-.intro {
-  /* padding-top: 24px; */
-}
+/* .intro {
+  padding-top: 24px;
+} */
 
 .name {
   font-family: 'Poppins';
