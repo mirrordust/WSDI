@@ -1,5 +1,12 @@
+<script setup lang="ts">
+import IconLogo from './icons/IconLogo.vue'
+</script>
+
 <template>
   <div class="content-container">
+    <div class="logo">
+      <IconLogo class="svg svg-site" />
+    </div>
     <h1>World Sustainable Development Institute</h1>
 
     <div class="background-box">
@@ -57,14 +64,19 @@
     padding-right: 6.25%;
   }
 
+  .logo {
+    padding-top: 30px;
+  }
+
   h1 {
     font-weight: 500;
     font-size: 48px;
     /* line-height: 100%; */
     letter-spacing: 0;
     color: #0b0717;
-    padding-top: calc(90px - 2%);
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
   }
 
   .cover {

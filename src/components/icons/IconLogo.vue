@@ -1,25 +1,22 @@
 <template>
   <svg
-    width="80"
-    height="48"
-    viewBox="0 0 80 48"
+    width="203"
+    height="120"
+    viewBox="0 0 203 120"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
   >
-    <g clip-path="url(#clip0_5257_9)">
-      <rect width="80" height="48" fill="white" />
-      <rect width="81.0213" height="48" fill="url(#pattern0_5257_9)" />
-    </g>
+    <rect width="203" height="120" fill="url(#pattern0_5257_10)" />
     <defs>
-      <pattern id="pattern0_5257_9" patternContentUnits="objectBoundingBox" width="1" height="1">
-        <use xlink:href="#image0_5257_9" transform="scale(0.00105042 0.00177305)" />
+      <pattern id="pattern0_5257_10" patternContentUnits="objectBoundingBox" width="1" height="1">
+        <use
+          xlink:href="#image0_5257_10"
+          transform="matrix(0.00105042 0 0 0.00177696 0 -0.00110294)"
+        />
       </pattern>
-      <clipPath id="clip0_5257_9">
-        <rect width="80" height="48" fill="white" />
-      </clipPath>
       <image
-        id="image0_5257_9"
+        id="image0_5257_10"
         width="952"
         height="564"
         preserveAspectRatio="none"

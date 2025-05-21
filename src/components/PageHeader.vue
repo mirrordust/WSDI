@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import IconUst from './icons/IconUst.vue'
-import IconLogo from './icons/IconLogo.vue'
-import IconMore from './icons/IconMore.vue'
 
 import { ref, onMounted, onUnmounted, computed } from 'vue'
 // import { useLocationStore } from '@/stores/location'
@@ -30,21 +28,6 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
       <a href="https://www.ust.hk" class="flex-item ust" style="text-decoration: none">
         <IconUst class="svg svg-ust" />
       </a>
-
-      <a href="/" class="flex-item site" style="text-decoration: none">
-        <div class="logo">
-          <IconLogo class="svg svg-site" />
-        </div>
-        <div class="logo-name">
-          World Sustainable
-          <br />
-          Development Institute
-        </div>
-      </a>
-
-      <div class="flex-item more">
-        <IconMore class="svg svg-more" />
-      </div>
     </div>
 
     <div class="right">
@@ -80,33 +63,13 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
     width: 100%;
     height: auto;
   }
-
-  .ust {
-    padding-right: 5px;
-    border-right: 1px solid #003366;
-  }
-
-  .site {
-    margin: 0 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .logo-name {
-    display: none;
-  }
-
-  .more {
-    display: none;
-  }
 }
 
 @media (min-width: 1024px) {
   .header {
     padding-left: 60px;
-    padding-top: 60px;
     padding-right: 60px;
+    padding-top: 40px;
     padding-bottom: 30px;
 
     display: flex;
@@ -163,28 +126,6 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
     /* 让svg随着屏幕尺寸缩放 */
     width: 100%;
     height: auto;
-  }
-
-  .ust {
-    padding-right: 20px;
-    border-right: 1px solid #003366;
-  }
-
-  .site {
-    margin-left: 24px;
-    margin-right: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .logo-name {
-    padding-left: 16px;
-    color: #0b0717;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    letter-spacing: 0;
   }
 
   .right {
