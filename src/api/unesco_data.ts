@@ -193,6 +193,17 @@ const unescoMembers = [
   },
 ]
 
+// Science Governance and Advisory Board
+const sgabs = [
+  {
+    id: 1,
+    photo: '/images/unesco_photo/deliang.jpg',
+    name: 'Deliang Chen',
+    intro: 'Chair',
+    homePage: 'https://en.wikipedia.org/wiki/Deliang_Chen',
+  },
+]
+
 export const getLeadInstitutions = () => {
   return leadInstitutions
 }
@@ -205,4 +216,7 @@ export const getAgencies = () => {
 
 export const getUnescoMembers = () => {
   return unescoMembers
+}
+export const getSgabs = () => {
+  return sgabs
 }
