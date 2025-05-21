@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { getUnescoMembers } from '@/api/unesco_data'
+import { getUnescoMembers, getSgabs } from '@/api/unesco_data'
 import { ref } from 'vue'
 import UnescoWGItem from './UnescoWGItem.vue'
 
 const memberList = ref(getUnescoMembers())
+const sgabList = ref(getSgabs())
 </script>
 
 <template>
@@ -13,6 +14,19 @@ const memberList = ref(getUnescoMembers())
     <div class="members">
       <UnescoWGItem
         v-for="member in memberList"
+        :key="member.id"
+        :home-page="member.homePage"
+        :photo="member.photo"
+        :name="member.name"
+        :area="member.intro"
+      />
+    </div>
+
+    <h2>Science Governance and Advisory Board</h2>
+
+    <div class="members">
+      <UnescoWGItem
+        v-for="member in sgabList"
         :key="member.id"
         :home-page="member.homePage"
         :photo="member.photo"

@@ -57,6 +57,7 @@ defineProps({
 
 .photo {
   width: 100%;
+  max-height: 220px;
 }
 
 .cover {
